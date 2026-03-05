@@ -1,5 +1,7 @@
 # Ink Theory Tattoos — Website
 
+[![GitHub](https://img.shields.io/badge/repo-cqdesignsny%2Fink--theory--site-black?logo=github)](https://github.com/cqdesignsny/ink-theory-site)
+
 Premium tattoo studio website for **Ink Theory Tattoos**, led by Steven Martinez (5M+ social media followers). Studios in Montgomery, NY (Hudson Valley) and Dallas, TX (coming soon).
 
 Built by **CQ Marketing**.
