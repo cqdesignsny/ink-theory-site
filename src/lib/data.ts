@@ -262,6 +262,8 @@ export const portfolioImages = [
   { src: '/gallery/black-and-grey-religious-king-statue-leg-tattoo.jpg', alt: 'Black and grey religious king statue with crown and halo tattoo on leg by Ink Theory' },
   { src: '/gallery/black-and-grey-jesus-crown-of-thorns-forearm-tattoo.jpg', alt: 'Black and grey Jesus Christ with crown of thorns and sacred heart tattoo on forearm by Ink Theory' },
   { src: '/gallery/black-and-grey-roaring-lion-spartan-shoulder-tattoo.jpg', alt: 'Black and grey roaring lion with Spartan warrior tattoo on shoulder by Ink Theory' },
+  { src: '/gallery/black-and-grey-virgin-mary-closeup-portrait-tattoo.jpg', alt: 'Black and grey Virgin Mary closeup portrait tattoo with radiant halo by Ink Theory' },
+  { src: '/gallery/black-and-grey-skull-ripping-skin-leg-tattoo.jpg', alt: 'Black and grey realistic skull ripping through skin tattoo on leg by Ink Theory' },
 ];
 
 // ─── Shop / Studio Images ───────────────────────────────────
