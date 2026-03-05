@@ -252,35 +252,16 @@ export function getRecommendedArtists(selectedStyles: string[], location?: 'ny' 
 
 // ─── Portfolio Images ────────────────────────────────────────
 export const portfolioImages = [
-  // Professional photoshoot series (Feb 2025)
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06515-scaled.jpeg', alt: 'Professional tattoo work by Ink Theory artists' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06517-scaled.jpeg', alt: 'Black and grey realism tattoo detail' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06522-scaled.jpeg', alt: 'Custom tattoo piece closeup' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06523-scaled.jpeg', alt: 'High contrast black and grey tattoo' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06525-scaled.jpeg', alt: 'Detailed realism tattoo by Steven Martinez' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06527-scaled.jpeg', alt: 'Custom black and grey piece' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06922-scaled.jpeg', alt: 'Ink Theory tattoo artistry' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06923-scaled.jpeg', alt: 'Detailed tattoo work showcase' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06964-scaled.jpeg', alt: 'Realism tattoo with architectural detail' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06965-scaled.jpeg', alt: 'High detail black and grey tattoo' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_1284-scaled.jpeg', alt: 'Tattoo portfolio piece from Ink Theory' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_1285-scaled.jpeg', alt: 'Custom tattoo design showcase' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_1294-scaled.jpeg', alt: 'Detailed black and grey arm piece' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_4245.jpeg', alt: 'Tattoo art by Ink Theory team' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_4250.jpeg', alt: 'Premium tattoo artwork' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_4253.jpeg', alt: 'Custom piece from Ink Theory studio' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_4256.jpeg', alt: 'Detailed tattoo work closeup' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/IMG_4257.jpeg', alt: 'Ink Theory latest tattoo work' },
-  // Square portfolio shots
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/01/portrait-square-04.jpg', alt: 'Tattoo portfolio shot' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/01/portrait-square-05.jpg', alt: 'Ink Theory portfolio piece' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/01/portrait-square-06.jpg', alt: 'Custom tattoo artistry' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/01/portrait-square-09.jpg', alt: 'Professional tattoo photography' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/01/portrait-square-10.jpg', alt: 'Tattoo detail shot' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/01/portrait-square-11.jpg', alt: 'Premium tattoo art by Ink Theory' },
-  // Recent work (Jan 2026)
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2026/01/IMG_7349.jpeg', alt: 'Latest tattoo work 2026' },
-  { src: 'https://inktheorytattoos.com/wp-content/uploads/2025/02/arm-cross.png', alt: 'Black and grey cross tattoo on arm' },
+  { src: '/gallery/black-and-grey-zeus-statue-forearm-tattoo.jpg', alt: 'Black and grey realistic Zeus statue tattoo with ribbon detail on forearm by Ink Theory' },
+  { src: '/gallery/black-and-grey-lion-spartan-warrior-shoulder-tattoo.jpg', alt: 'Black and grey roaring lion and Spartan warrior tattoo on upper arm by Ink Theory' },
+  { src: '/gallery/black-and-grey-hannya-mask-portrait-arm-tattoo.jpg', alt: 'Black and grey Japanese hannya mask merged with woman portrait tattoo on arm by Ink Theory' },
+  { src: '/gallery/black-and-grey-greek-god-portrait-forearm-tattoo.jpg', alt: 'Black and grey realistic Greek god bearded portrait tattoo on forearm by Ink Theory' },
+  { src: '/gallery/black-and-grey-virgin-mary-praying-forearm-tattoo.jpg', alt: 'Black and grey Virgin Mary praying with radiant halo tattoo on forearm by Ink Theory' },
+  { src: '/gallery/black-and-grey-cowboy-horseback-forearm-tattoo.jpg', alt: 'Black and grey realistic cowboy on horseback tattoo on forearm by Ink Theory' },
+  { src: '/gallery/black-and-grey-woman-tiger-surreal-leg-tattoo.jpg', alt: 'Black and grey surreal woman and tiger face morph tattoo on leg by Ink Theory' },
+  { src: '/gallery/black-and-grey-religious-king-statue-leg-tattoo.jpg', alt: 'Black and grey religious king statue with crown and halo tattoo on leg by Ink Theory' },
+  { src: '/gallery/black-and-grey-jesus-crown-of-thorns-forearm-tattoo.jpg', alt: 'Black and grey Jesus Christ with crown of thorns and sacred heart tattoo on forearm by Ink Theory' },
+  { src: '/gallery/black-and-grey-roaring-lion-spartan-shoulder-tattoo.jpg', alt: 'Black and grey roaring lion with Spartan warrior tattoo on shoulder by Ink Theory' },
 ];
 
 // ─── Shop / Studio Images ───────────────────────────────────
