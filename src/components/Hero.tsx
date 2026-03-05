@@ -83,11 +83,11 @@ export function Hero() {
           loop
           playsInline
           preload="none"
-          poster="https://inktheorytattoos.com/wp-content/uploads/2025/02/DSC06523-scaled.jpeg"
+          poster="/gallery/black-and-grey-zeus-statue-forearm-tattoo.jpg"
           className="h-full w-full object-cover scale-105"
         >
           <source
-            src="https://inktheorytattoos.com/wp-content/uploads/2025/01/logo-intro.mp4"
+            src="/ink-theory-hero-video.mp4"
             type="video/mp4"
           />
         </video>
