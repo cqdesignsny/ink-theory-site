@@ -83,8 +83,7 @@ export function Hero() {
           loop
           playsInline
           preload="none"
-          poster="/gallery/black-and-grey-zeus-statue-forearm-tattoo.jpg"
-          className="h-full w-full object-cover scale-105"
+          className="h-full w-full object-cover scale-105 bg-black"
         >
           <source
             src="/ink-theory-hero-video.mp4"
