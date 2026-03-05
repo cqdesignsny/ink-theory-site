@@ -82,7 +82,7 @@ export function Hero() {
           muted
           loop
           playsInline
-          preload="none"
+          preload="auto"
           className="h-full w-full object-cover scale-105 bg-black"
         >
           <source
