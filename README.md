@@ -13,7 +13,7 @@ Built by **CQ Marketing**.
 - **Styling**: Tailwind CSS v4
 - **Animations**: GSAP + ScrollTrigger, Framer Motion
 - **Fonts**: Inter (body), Space Grotesk (headings) via `next/font/google`
-- **Images**: Served from `inktheorytattoos.com`, optimized by Next.js (WebP/AVIF)
+- **Images**: Artist photos & gallery images stored locally in `public/`; shop images from `inktheorytattoos.com`; optimized by Next.js (WebP/AVIF)
 
 ## Getting Started
 
@@ -95,7 +95,7 @@ Three schemas injected in the root layout:
 
 - **Image Optimization**: All images use Next.js `<Image>` with WebP/AVIF auto-conversion (no `unoptimized` flags)
 - **Code Splitting**: Below-fold homepage sections use `next/dynamic` for lazy loading
-- **Video**: Hero background video uses `preload="none"` with poster image fallback
+- **Video**: Hero background video (`final-ink-theory-hero-video.mp4`) with `preload="auto"`
 - **Font Loading**: `display: "swap"` on all fonts to prevent FOIT
 - **Preconnect**: `<link rel="preconnect">` and `<link rel="dns-prefetch">` for image CDN
 - **Above-fold Priority**: Navbar logo and Hero content use `priority` loading
