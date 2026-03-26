@@ -139,17 +139,28 @@ export function LocationsDetail() {
                 <div className="flex items-center gap-3">
                   <h2 className="font-display text-3xl font-bold text-ink-white">Dallas, TX</h2>
                   <span className="rounded-full bg-ink-purple/15 px-3 py-1 text-xs font-semibold text-ink-purple">
-                    Coming Soon
+                    By Appointment Only
                   </span>
                 </div>
                 <p className="mt-4 max-w-xl text-base text-ink-silver">
-                  Ink Theory is expanding to the Dallas-Fort Worth area. Our new studio will bring the same premium experience and world-class artistry to Texas.
+                  Steven Martinez tattoos in the Dallas-Fort Worth area exclusively by appointment. The location is private and shared only after booking is confirmed. Appointments must be scheduled well in advance — reach out directly to inquire about availability.
                 </p>
               </div>
             </div>
 
+            <div className="mt-6 space-y-4 text-sm">
+              <div className="flex items-center gap-3 text-ink-silver">
+                <Phone size={18} className="shrink-0 text-ink-silver" />
+                <a href="tel:+18453852136" className="transition-colors hover:text-ink-white">(845) 385-2136</a>
+              </div>
+              <div className="flex items-center gap-3 text-ink-silver">
+                <Mail size={18} className="shrink-0 text-ink-silver" />
+                <a href="mailto:Scminktheory@gmail.com" className="transition-colors hover:text-ink-white">Scminktheory@gmail.com</a>
+              </div>
+            </div>
+
             <div className="mt-6">
-              <p className="text-xs font-semibold uppercase tracking-wider text-ink-muted">Will Serve</p>
+              <p className="text-xs font-semibold uppercase tracking-wider text-ink-muted">Serving</p>
               <p className="mt-1 text-sm text-ink-silver">
                 {dallas.nearbyAreas?.join(', ')}
               </p>
@@ -157,10 +168,10 @@ export function LocationsDetail() {
 
             <div className="mt-8">
               <Link
-                href="/book"
+                href="/contact"
                 className="inline-flex items-center gap-2 rounded-full border border-ink-purple/30 px-6 py-2.5 text-sm font-semibold text-ink-purple transition-all hover:bg-ink-purple/10"
               >
-                Join the Waitlist
+                Inquire About Dallas
               </Link>
             </div>
           </div>

@@ -115,16 +115,16 @@ export function Footer() {
             </h3>
             <div className="mt-4">
               <span className="inline-block rounded-full bg-ink-purple/20 px-3 py-1 text-xs font-semibold text-ink-purple">
-                Coming Soon
+                By Appointment Only
               </span>
               <p className="mt-3 text-sm text-ink-muted">
-                Our new Dallas studio is opening soon. Join the waitlist to be first in line.
+                Steven tattoos in Dallas by appointment only. Private location &mdash; book well in advance.
               </p>
               <Link
-                href="/book"
+                href="/contact"
                 className="mt-3 inline-block text-sm font-medium text-ink-purple hover:text-ink-purple-light"
               >
-                Join Waitlist &rarr;
+                Inquire &rarr;
               </Link>
             </div>
           </div>

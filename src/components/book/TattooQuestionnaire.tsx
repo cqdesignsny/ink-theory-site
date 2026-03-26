@@ -615,7 +615,7 @@ function StepInfo({
             }`}
           >
             <div className="font-semibold">Dallas, TX</div>
-            <div className="mt-1 text-xs text-ink-purple">Coming Soon — Waitlist</div>
+            <div className="mt-1 text-xs text-ink-purple">By Appointment Only — Steven Only</div>
           </button>
         </div>
       </div>

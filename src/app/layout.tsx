@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Ink Theory Tattoos",
   },
   description:
-    "Ink Theory Tattoos — led by Steven Martinez with 5M+ followers. Specializing in realism, black & grey, fine line, and custom tattoo artistry. Studios in Montgomery, NY (Hudson Valley) and Dallas, TX. Book your consultation today.",
+    "Ink Theory Tattoos — led by Steven Martinez with 5M+ followers. Specializing in realism, black & grey, fine line, and custom tattoo artistry. Studio in Montgomery, NY (Hudson Valley). Dallas, TX by appointment only. Book your consultation today.",
   keywords: [
     "tattoo artist near me",
     "best tattoo shop Hudson Valley",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     siteName: "Ink Theory Tattoos",
     title: "Ink Theory Tattoos | Premier Tattoo Studio",
     description:
-      "Led by Steven Martinez with 5M+ followers. Custom realism, black & grey, and fine line tattoos. Studios in Hudson Valley, NY & Dallas, TX.",
+      "Led by Steven Martinez with 5M+ followers. Custom realism, black & grey, and fine line tattoos. Studio in Hudson Valley, NY. Dallas, TX by appointment only.",
     images: [
       {
         url: "https://inktheorytattoos.com/wp-content/uploads/2025/01/logo-seal-wht.png",
@@ -102,7 +102,7 @@ const tattooParlorSchema = {
   telephone: "(845) 385-2136",
   email: "Scminktheory@gmail.com",
   description:
-    "Premier tattoo studio led by Steven Martinez. Specializing in realism, black & grey, fine line, dotwork, and custom tattoo artistry. Serving the Hudson Valley, NY and Dallas-Fort Worth, TX.",
+    "Premier tattoo studio led by Steven Martinez. Specializing in realism, black & grey, fine line, dotwork, and custom tattoo artistry. Studio in Hudson Valley, NY. Dallas-Fort Worth, TX by appointment only.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "663 Route 17K",

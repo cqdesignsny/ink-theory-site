@@ -155,7 +155,7 @@ export function LocationsPreview() {
                   Dallas, TX
                 </h3>
                 <span className="mt-2 inline-block rounded-full bg-ink-purple/15 px-3 py-1 text-xs font-semibold text-ink-purple">
-                  Coming Soon
+                  By Appointment Only
                 </span>
               </div>
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white/5 transition-all duration-300 group-hover:bg-ink-purple/10 group-hover:text-ink-purple">
@@ -164,7 +164,7 @@ export function LocationsPreview() {
             </div>
 
             <p className="relative mt-6 text-sm leading-relaxed text-ink-muted">
-              Ink Theory is expanding to the Dallas-Fort Worth metroplex. Be the first to book when we open our doors.
+              Steven Martinez tattoos in the Dallas-Fort Worth area by appointment only. Location is private and shared upon booking. Appointments must be booked well in advance &mdash; inquire directly for availability.
             </p>
             <p className="relative mt-4 text-xs text-ink-muted">
               Serving DFW &mdash; Fort Worth, Plano, Arlington, Frisco, McKinney &amp; beyond
@@ -172,10 +172,10 @@ export function LocationsPreview() {
 
             <div className="relative mt-6">
               <Link
-                href="/book"
+                href="/contact"
                 className="inline-flex items-center gap-2 rounded-full border border-ink-purple/30 px-6 py-2.5 text-sm font-semibold text-ink-purple transition-all hover:bg-ink-purple/10 hover:shadow-lg hover:shadow-ink-purple/10"
               >
-                Join the Waitlist
+                Inquire About Dallas
               </Link>
             </div>
           </div>

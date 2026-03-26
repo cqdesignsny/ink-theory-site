@@ -148,7 +148,7 @@ export function Hero() {
         <p className="mx-auto mt-6 max-w-2xl text-lg text-ink-muted sm:text-xl md:mt-8 md:text-2xl">
           Premium tattoo artistry by Steven Martinez &amp; team.
           <br className="hidden sm:block" />
-          Hudson Valley, NY &bull; Dallas, TX
+          Hudson Valley, NY &bull; Dallas, TX <span className="text-ink-purple text-base">(By Appointment)</span>
         </p>
 
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center md:mt-10">

@@ -195,10 +195,10 @@ export const locations = [
   {
     id: 'dallas',
     name: 'Dallas, TX',
-    address: 'Coming Soon',
+    address: 'Private — By Appointment Only',
     phone: '(845) 385-2136',
     email: 'Scminktheory@gmail.com',
-    status: 'coming-soon' as const,
+    status: 'appointment-only' as const,
     nearbyAreas: ['Fort Worth', 'Plano', 'Arlington', 'Frisco', 'McKinney', 'Denton', 'Irving', 'Grand Prairie', 'Garland', 'Mesquite'],
   },
 ];
@@ -215,6 +215,7 @@ export const faqs = [
   { q: 'Do you have a minimum age requirement?', a: 'You must be 18 years or older with a valid photo ID. We do not tattoo minors, even with parental consent.' },
   { q: 'What styles do you specialize in?', a: 'Our team covers Black & Grey, Realism, High Contrast B&G, Fine Line, Dotwork, Illustrative, Geometric, Micro Realism, Lettering, Cyber Realism, Portraits, Tribal, Anime, Linework, and Minimal Color.' },
   { q: 'Do you offer consultations?', a: 'Yes, consultations are part of our booking process. After you submit your tattoo details through our questionnaire, we\'ll schedule a consultation to finalize your design, placement, and pricing.' },
+  { q: 'Can I get tattooed in Dallas?', a: 'Yes — Steven Martinez tattoos in the Dallas-Fort Worth area by appointment only. The location is private and shared only after booking is confirmed. Dallas appointments must be booked well in advance. Contact us directly at (845) 385-2136 or Scminktheory@gmail.com to inquire about availability.' },
 ];
 
 // ─── Helper: Match artists to a style ───────────────────────
