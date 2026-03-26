@@ -51,7 +51,7 @@ export const artists: Artist[] = [
     slug: 'steven-martinez',
     styles: ['black-grey', 'realism', 'high-contrast-bg'],
     bio: 'Owner and lead artist at Ink Theory. With over 5 million followers across social media, Steven is recognized as one of the top tattoo artists in the country, known for his breathtaking realism and high-contrast black & grey work.',
-    image: 'https://inktheorytattoos.com/wp-content/uploads/2025/07/ink-theory-teamsteven.jpg',
+    image: '/artists/steven-martinez.png',
     instagram: 'https://instagram.com/scm_ink',
     location: 'both',
     featured: true,
@@ -62,7 +62,7 @@ export const artists: Artist[] = [
     slug: 'daron-fuller',
     styles: ['black-grey', 'illustrative', 'tribal', 'fineline'],
     bio: 'Daron brings a versatile range to Ink Theory, seamlessly blending black & grey fundamentals with illustrative flair, tribal heritage designs, and precise fine line work.',
-    image: 'https://inktheorytattoos.com/wp-content/uploads/2025/07/ink-theory-teamArtboard-2.jpg',
+    image: '/artists/daron-fuller.png',
     location: 'ny',
   },
   {
@@ -71,7 +71,7 @@ export const artists: Artist[] = [
     slug: 'collin-hagerty',
     styles: ['illustrative', 'realism', 'linework', 'minimal-color'],
     bio: 'Collin\'s artistic eye for illustrative work with minimal color creates pieces that stand out. His realism and clean linework make every tattoo a masterpiece.',
-    image: 'https://inktheorytattoos.com/wp-content/uploads/2025/07/ink-theory-teamArtboard-4.jpg',
+    image: '/artists/collin-hagerty.png',
     location: 'ny',
   },
   {
@@ -80,7 +80,7 @@ export const artists: Artist[] = [
     slug: 'adam-cordoba',
     styles: ['black-grey', 'realism', 'dotwork'],
     bio: 'Adam specializes in the delicate art of dotwork combined with bold realism. His black & grey pieces are rich with depth and meticulous detail.',
-    image: 'https://inktheorytattoos.com/wp-content/uploads/2025/07/ink-theory-team-7.jpg',
+    image: '/artists/adam-cordoba.png',
     location: 'ny',
   },
   {
@@ -89,7 +89,7 @@ export const artists: Artist[] = [
     slug: 'eric-lebron',
     styles: ['dotwork', 'minimalistic'],
     bio: 'Eric\'s minimalistic approach and mastery of dotwork creates clean, elegant tattoos. His less-is-more philosophy produces timeless pieces.',
-    image: 'https://inktheorytattoos.com/wp-content/uploads/2025/07/ink-theory-teamArtboard-5.jpg',
+    image: '/artists/eric-lebron.png',
     location: 'ny',
   },
   {
@@ -98,7 +98,7 @@ export const artists: Artist[] = [
     slug: 'jazzy-camacho',
     styles: ['black-grey', 'realism', 'lettering'],
     bio: 'Jazzy brings passion and precision to every piece, excelling in black & grey realism and custom lettering that tells each client\'s unique story.',
-    image: 'https://inktheorytattoos.com/wp-content/uploads/2026/01/jozzy.png',
+    image: '/artists/jazzy-camacho.png',
     location: 'ny',
   },
 ];
