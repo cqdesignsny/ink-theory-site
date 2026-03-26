@@ -26,6 +26,7 @@ import {
   Minus,
   Droplets,
   Circle,
+  Hand,
   Minimize2,
   ArrowUpDown,
   ArrowLeftRight,
@@ -35,10 +36,7 @@ import {
   ShieldAlert,
 } from 'lucide-react';
 import Image from 'next/image';
-import {
-  ArmIcon, BackIcon, ChestIcon, TorsoIcon, LegIcon, RibsIcon,
-  HandIcon, NeckIcon, AbdomenIcon, FootIcon, GlutesIcon, FaceIcon,
-} from './BodyIcons';
+// Body placement icons now use PNG images from /public/icons/
 import {
   tattooStyles,
   bodyPlacements,
@@ -57,14 +55,24 @@ const styleIconMap: Record<string, React.ComponentType<{ size?: number; classNam
   Sparkles, Minus, Droplets, Circle,
 };
 
-const bodyIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
-  Dumbbell: ArmIcon, RectangleVertical: BackIcon, Shield: ChestIcon, Shirt: TorsoIcon,
-  Footprints: FootIcon, AlignJustify: RibsIcon, Hand: HandIcon, CircleUser: NeckIcon,
-  Smile: FaceIcon, Ruler: LegIcon, Target: AbdomenIcon, Gem: GlutesIcon,
+// Maps placement id → PNG icon filename in /icons/
+const bodyIconImageMap: Record<string, string> = {
+  arm: '/icons/arms.png',
+  back: '/icons/back.png',
+  chest: '/icons/chest.png',
+  torso: '/icons/torso.png',
+  leg: '/icons/legs.png',
+  ribs: '/icons/ribs.png',
+  hand: '/icons/hands.png',
+  neck: '/icons/neck.png',
+  abdomen: '/icons/abdomen.png',
+  feet: '/icons/feet.png',
+  glutes: '/icons/glutes.png',
+  face: '/icons/face.png',
 };
 
 const sizeIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
-  Minimize2, Hand: HandIcon, ArrowUpDown, ArrowLeftRight, Maximize2,
+  Minimize2, Hand, ArrowUpDown, ArrowLeftRight, Maximize2,
 };
 
 const detailIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
@@ -398,7 +406,7 @@ function StepPlacement({
 
       <div className="mt-6 grid grid-cols-3 gap-3 sm:grid-cols-4">
         {bodyPlacements.map((bp) => {
-          const Icon = bodyIconMap[bp.icon] || Circle;
+          const iconSrc = bodyIconImageMap[bp.id];
           const isSelected = selected === bp.id;
           return (
             <button
@@ -410,7 +418,19 @@ function StepPlacement({
                   : 'border-white/5 bg-ink-charcoal text-ink-muted hover:border-white/10 hover:bg-ink-gray hover:text-ink-silver'
               }`}
             >
-              <Icon size={24} className={isSelected ? 'text-ink-purple' : ''} />
+              {iconSrc ? (
+                <Image
+                  src={iconSrc}
+                  alt={bp.name}
+                  width={28}
+                  height={28}
+                  className={`transition-all duration-200 ${
+                    isSelected ? 'brightness-0 invert-[.5] sepia-[1] saturate-[10] hue-rotate-[230deg]' : 'brightness-0 invert-[.65]'
+                  }`}
+                />
+              ) : (
+                <Circle size={24} className={isSelected ? 'text-ink-purple' : ''} />
+              )}
               <span className="text-xs font-semibold">{bp.name}</span>
             </button>
           );
