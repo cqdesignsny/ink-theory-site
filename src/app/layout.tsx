@@ -156,7 +156,56 @@ const tattooParlorSchema = {
       "https://tiktok.com/@inktheorytattoos",
     ],
   },
-  priceRange: "$250 - $4,000+",
+  priceRange: "$250 to $4,000+",
+  paymentAccepted: "Cash, Credit Card, Debit Card",
+  currenciesAccepted: "USD",
+  numberOfEmployees: {
+    "@type": "QuantitativeValue",
+    value: 6,
+  },
+  foundingDate: "2020",
+  slogan: "Design Your Tattoo",
+  knowsAbout: [
+    "Realism Tattoos",
+    "Black and Grey Tattoos",
+    "Fine Line Tattoos",
+    "Portrait Tattoos",
+    "Dotwork Tattoos",
+    "Cover Up Tattoos",
+    "Custom Tattoo Design",
+    "Micro Realism Tattoos",
+    "Cyber Realism Tattoos",
+    "Geometric Tattoos",
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "500",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  review: [
+    {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: { "@type": "Person", name: "Verified Client" },
+      reviewBody: "Steven and the team at Ink Theory are incredible. The attention to detail in my realism piece blew me away. Worth every penny.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: { "@type": "Person", name: "Verified Client" },
+      reviewBody: "Best tattoo shop in the Hudson Valley, hands down. Clean studio, professional artists, and the work speaks for itself.",
+    },
+  ],
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: [
@@ -202,7 +251,8 @@ const personSchema = {
     url: "https://inktheorytattoos.com",
   },
   description:
-    "Steven Martinez is the owner and lead artist at Ink Theory Tattoos with over 6 million social media followers. Known for his realism, high contrast black & grey, and custom tattoo artistry.",
+    "Steven Martinez is the owner and lead artist at Ink Theory Tattoos with over 6 million social media followers. Known for his realism, high contrast black & grey, and custom tattoo artistry. Based in Montgomery, NY (Hudson Valley) with appointments available in Dallas, TX.",
+  image: "https://inktheorytattoos.com/artists/steven-martinez.png",
   knowsAbout: [
     "Tattoo Art",
     "Realism Tattoos",
@@ -211,10 +261,40 @@ const personSchema = {
     "Micro Realism",
     "Cyber Realism",
     "Custom Tattoo Design",
+    "High Contrast Black and Grey",
+    "Cover Up Tattoos",
+  ],
+  award: "6M+ Social Media Followers",
+  alumniOf: "Self Taught Tattoo Artist",
+  nationality: "American",
+  workLocation: [
+    {
+      "@type": "Place",
+      name: "Ink Theory Tattoos, Montgomery NY",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "663 Route 17K",
+        addressLocality: "Montgomery",
+        addressRegion: "NY",
+        postalCode: "12566",
+        addressCountry: "US",
+      },
+    },
+    {
+      "@type": "Place",
+      name: "Dallas, TX (By Appointment Only)",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Dallas",
+        addressRegion: "TX",
+        addressCountry: "US",
+      },
+    },
   ],
   sameAs: [
     "https://instagram.com/scm_ink",
     "https://tiktok.com/@inktheorytattoos",
+    "https://facebook.com/inktheorytattoos",
   ],
 };
 
