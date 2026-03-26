@@ -95,7 +95,7 @@ Three schemas injected in the root layout:
 
 - **Image Optimization**: All images use Next.js `<Image>` with WebP/AVIF auto-conversion (no `unoptimized` flags)
 - **Code Splitting**: Below-fold homepage sections use `next/dynamic` for lazy loading
-- **Video**: Hero background video (`final-ink-theory-hero-video.mp4`) with `preload="auto"`
+- **Video**: Hero background video (`final-hero-vid.mp4`) with `preload="auto"`
 - **Font Loading**: `display: "swap"` on all fonts to prevent FOIT
 - **Preconnect**: `<link rel="preconnect">` and `<link rel="dns-prefetch">` for image CDN
 - **Above-fold Priority**: Navbar logo and Hero content use `priority` loading

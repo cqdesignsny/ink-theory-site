@@ -86,7 +86,7 @@ export function Hero() {
           className="h-full w-full object-cover scale-105 bg-black"
         >
           <source
-            src="/final-ink-theory-hero-video.mp4"
+            src="/final-hero-vid.mp4"
             type="video/mp4"
           />
         </video>
