@@ -26,26 +26,19 @@ import {
   Minus,
   Droplets,
   Circle,
-  Dumbbell,
-  RectangleVertical,
-  Shield,
-  Shirt,
-  Footprints,
-  AlignJustify,
-  Hand,
-  CircleUser,
-  Smile,
   Minimize2,
   ArrowUpDown,
   ArrowLeftRight,
   Maximize2,
   Equal,
   Layers,
-  Ruler,
-  Target,
-  Gem,
+  ShieldAlert,
 } from 'lucide-react';
 import Image from 'next/image';
+import {
+  ArmIcon, BackIcon, ChestIcon, TorsoIcon, LegIcon, RibsIcon,
+  HandIcon, NeckIcon, AbdomenIcon, FootIcon, GlutesIcon, FaceIcon,
+} from './BodyIcons';
 import {
   tattooStyles,
   bodyPlacements,
@@ -65,13 +58,13 @@ const styleIconMap: Record<string, React.ComponentType<{ size?: number; classNam
 };
 
 const bodyIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
-  Dumbbell, RectangleVertical, Shield, Shirt,
-  Footprints, AlignJustify, Hand, CircleUser,
-  Smile, Ruler, Target, Gem,
+  Dumbbell: ArmIcon, RectangleVertical: BackIcon, Shield: ChestIcon, Shirt: TorsoIcon,
+  Footprints: FootIcon, AlignJustify: RibsIcon, Hand: HandIcon, CircleUser: NeckIcon,
+  Smile: FaceIcon, Ruler: LegIcon, Target: AbdomenIcon, Gem: GlutesIcon,
 };
 
 const sizeIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
-  Minimize2, Hand, ArrowUpDown, ArrowLeftRight, Maximize2,
+  Minimize2, Hand: HandIcon, ArrowUpDown, ArrowLeftRight, Maximize2,
 };
 
 const detailIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
@@ -103,6 +96,8 @@ interface FormData {
   phone: string;
   email: string;
   instagram: string;
+  dateOfBirth: string;
+  ageConfirmed: boolean;
 }
 
 const initialForm: FormData = {
@@ -119,6 +114,8 @@ const initialForm: FormData = {
   phone: '',
   email: '',
   instagram: '',
+  dateOfBirth: '',
+  ageConfirmed: false,
 };
 
 // ─── Animation variants ─────────────────────────────────────
@@ -184,7 +181,7 @@ export function TattooQuestionnaire() {
       case 1: return form.placement !== '';
       case 2: return form.size !== '';
       case 3: return form.detailLevel !== '' && form.description.trim() !== '';
-      case 4: return form.name.trim() !== '' && (form.phone.trim() !== '' || form.email.trim() !== '');
+      case 4: return form.name.trim() !== '' && (form.phone.trim() !== '' || form.email.trim() !== '') && form.ageConfirmed && form.dateOfBirth !== '';
       default: return true;
     }
   };
@@ -677,6 +674,44 @@ function StepInfo({
             placeholder="@yourhandle"
             className="w-full rounded-xl border border-white/5 bg-ink-charcoal px-4 py-3 text-sm text-ink-white placeholder-ink-muted/50 outline-none transition-colors focus:border-ink-purple/50 focus:ring-1 focus:ring-ink-purple/20"
           />
+        </div>
+      </div>
+
+      {/* Age Verification */}
+      <div className="rounded-xl border border-white/5 bg-ink-dark p-5">
+        <div className="flex items-center gap-2 text-ink-silver">
+          <ShieldAlert size={18} className="text-ink-purple" />
+          <span className="text-sm font-semibold">Age Verification</span>
+        </div>
+
+        <div className="mt-4">
+          <label htmlFor="dob" className="mb-2 block text-sm font-semibold text-ink-silver">
+            Date of Birth <span className="text-ink-purple">*</span>
+          </label>
+          <input
+            id="dob"
+            type="date"
+            value={form.dateOfBirth}
+            onChange={e => setForm(f => ({ ...f, dateOfBirth: e.target.value }))}
+            max={new Date(new Date().setFullYear(new Date().getFullYear() - 18)).toISOString().split('T')[0]}
+            className="w-full rounded-xl border border-white/5 bg-ink-charcoal px-4 py-3 text-sm text-ink-white outline-none transition-colors focus:border-ink-purple/50 focus:ring-1 focus:ring-ink-purple/20 [color-scheme:dark]"
+          />
+        </div>
+
+        <div className="mt-4 flex items-start gap-3">
+          <button
+            onClick={() => setForm(f => ({ ...f, ageConfirmed: !f.ageConfirmed }))}
+            className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded border transition-all ${
+              form.ageConfirmed
+                ? 'border-ink-purple bg-ink-purple text-white'
+                : 'border-white/10 bg-ink-charcoal'
+            }`}
+          >
+            {form.ageConfirmed && <Check size={12} />}
+          </button>
+          <span className="text-xs leading-relaxed text-ink-muted">
+            I confirm that I am 18 years of age or older. I understand that valid government issued photo ID is required at the time of my appointment as required by law. No exceptions.
+          </span>
         </div>
       </div>
     </div>
