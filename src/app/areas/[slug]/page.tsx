@@ -172,7 +172,7 @@ export default async function ServiceAreaPage({
                     <Star size={20} className="text-ink-purple" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-ink-white">5M+ Followers Trust Us</h3>
+                    <h3 className="font-semibold text-ink-white">6M+ Followers Trust Us</h3>
                     <p className="mt-1 text-sm text-ink-muted">
                       Led by Steven Martinez, one of the most followed tattoo artists in the country.
                     </p>
@@ -196,7 +196,7 @@ export default async function ServiceAreaPage({
                   <div>
                     <h3 className="font-semibold text-ink-white">6 Specialist Artists</h3>
                     <p className="mt-1 text-sm text-ink-muted">
-                      Each artist brings unique specializations — from realism to dotwork to fine line — ensuring your tattoo is crafted by an expert in your chosen style.
+                      Every artist on our team has their own specialty, from realism to dotwork to fine line. You'll always be working with someone who actually excels in the style you want.
                     </p>
                   </div>
                 </div>

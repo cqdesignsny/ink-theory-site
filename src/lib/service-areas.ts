@@ -41,7 +41,7 @@ export const serviceAreas: ServiceArea[] = [
     state: 'NY',
     distance: '30 minutes',
     description:
-      'Looking for the best tattoo artist near Poughkeepsie? Ink Theory in Montgomery is worth the short drive. Led by Steven Martinez with over 5 million followers, our team specializes in realism, black & grey, and custom tattoo designs that Poughkeepsie clients love.',
+      'Looking for the best tattoo artist near Poughkeepsie? Ink Theory in Montgomery is worth the short drive. Led by Steven Martinez with over 6 million followers, our team specializes in realism, black & grey, and custom tattoo designs that Poughkeepsie clients love.',
     nearbyLandmarks: ['Walkway Over the Hudson', 'Marist College', 'Vassar College'],
   },
   {
@@ -100,7 +100,7 @@ export const serviceAreas: ServiceArea[] = [
     state: 'NY',
     distance: '10 minutes',
     description:
-      'Washingtonville is one of our closest service areas. Ink Theory in Montgomery delivers premium tattoo artistry with specializations in realism, black & grey, and custom designs — all just a short drive from downtown Washingtonville.',
+      'Washingtonville is one of our closest service areas. Ink Theory in Montgomery delivers premium tattoo artistry with specializations in realism, black & grey, and custom designs, all just a short drive from downtown Washingtonville.',
     nearbyLandmarks: ['Brotherhood Winery'],
   },
   {

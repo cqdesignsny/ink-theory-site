@@ -59,7 +59,7 @@ export function ContactSection() {
                 </div>
                 <div className="flex items-center gap-3 text-sm text-ink-silver">
                   <Clock size={18} className="shrink-0 text-ink-silver" />
-                  <span>Mon–Sat: 10 AM – 8 PM</span>
+                  <span>Mon thru Sat: 10 AM to 8 PM</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-ink-silver">
                   <Instagram size={18} className="shrink-0 text-ink-silver" />

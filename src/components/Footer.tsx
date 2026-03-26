@@ -118,7 +118,7 @@ export function Footer() {
                 By Appointment Only
               </span>
               <p className="mt-3 text-sm text-ink-muted">
-                Steven tattoos in Dallas by appointment only. Private location &mdash; book well in advance.
+                Steven tattoos in Dallas by appointment only. Private location, book well in advance.
               </p>
               <Link
                 href="/contact"

@@ -101,7 +101,7 @@ export function StylesShowcase() {
           </h2>
           <div className="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-transparent via-ink-purple to-transparent" />
           <p className="mx-auto mt-6 max-w-2xl text-ink-muted">
-            From photorealistic portraits to delicate fine line work, our artists bring expertise across every major tattoo style.
+            Photorealistic portraits, fine line, dotwork, you name it. Our artists don&apos;t just do these styles, they specialize in them.
           </p>
         </div>
 

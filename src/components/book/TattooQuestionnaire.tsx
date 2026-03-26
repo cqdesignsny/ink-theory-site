@@ -471,7 +471,7 @@ function StepSize({
               <div className="flex-1">
                 <div className="flex items-center gap-2">
                   <span className="font-semibold text-ink-white">{size.name}</span>
-                  <span className="text-sm text-ink-muted">— {size.description}</span>
+                  <span className="text-sm text-ink-muted">({size.description})</span>
                 </div>
                 <span className="text-xs text-ink-muted">Est. {size.estimatedTime}</span>
               </div>
@@ -586,7 +586,7 @@ function StepInfo({
     <div className="space-y-6">
       <div>
         <h2 className="font-display text-xl font-bold text-ink-white">
-          Almost there — tell us about you
+          Almost there, tell us about you
         </h2>
         <p className="mt-1 text-sm text-ink-muted">We&apos;ll reach out within 24 hours to schedule your consultation.</p>
       </div>
@@ -615,7 +615,7 @@ function StepInfo({
             }`}
           >
             <div className="font-semibold">Dallas, TX</div>
-            <div className="mt-1 text-xs text-ink-purple">By Appointment Only — Steven Only</div>
+            <div className="mt-1 text-xs text-ink-purple">By Appointment Only, Steven Only</div>
           </button>
         </div>
       </div>

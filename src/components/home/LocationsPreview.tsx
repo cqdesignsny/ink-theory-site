@@ -118,12 +118,12 @@ export function LocationsPreview() {
               </div>
               <div className="flex items-center gap-3">
                 <Clock size={16} className="shrink-0 text-ink-silver" />
-                <span>Mon-Sat: 10 AM – 8 PM</span>
+                <span>Mon thru Sat: 10 AM to 8 PM</span>
               </div>
             </div>
 
             <p className="relative mt-4 text-xs text-ink-muted">
-              Serving the Hudson Valley &mdash; Newburgh, Middletown, Poughkeepsie, Beacon, Goshen &amp; beyond
+              Serving the Hudson Valley: Newburgh, Middletown, Poughkeepsie, Beacon, Goshen &amp; beyond
             </p>
 
             <div className="relative mt-6 flex gap-3">
@@ -164,10 +164,10 @@ export function LocationsPreview() {
             </div>
 
             <p className="relative mt-6 text-sm leading-relaxed text-ink-muted">
-              Steven Martinez tattoos in the Dallas-Fort Worth area by appointment only. Location is private and shared upon booking. Appointments must be booked well in advance &mdash; inquire directly for availability.
+              Steven tattoos in the Dallas Fort Worth area by appointment only. The location is private and shared once you're booked. Spots fill up fast, so reach out early.
             </p>
             <p className="relative mt-4 text-xs text-ink-muted">
-              Serving DFW &mdash; Fort Worth, Plano, Arlington, Frisco, McKinney &amp; beyond
+              Serving DFW: Fort Worth, Plano, Arlington, Frisco, McKinney &amp; beyond
             </p>
 
             <div className="relative mt-6">

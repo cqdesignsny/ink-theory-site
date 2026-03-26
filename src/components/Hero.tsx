@@ -170,7 +170,7 @@ export function Hero() {
         {/* Social Proof Stats */}
         <div className="mt-12 flex items-center justify-center gap-8 sm:gap-12 md:mt-16">
           <div className="text-center">
-            <div className="font-display text-2xl font-bold text-ink-white sm:text-3xl">5M+</div>
+            <div className="font-display text-2xl font-bold text-ink-white sm:text-3xl">6M+</div>
             <div className="mt-1 text-xs uppercase tracking-wider text-ink-muted">Followers</div>
           </div>
           <div className="h-8 w-px bg-white/10" />

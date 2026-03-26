@@ -78,7 +78,7 @@ export function CTABanner() {
               Design Your Tattoo
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-ink-muted">
-              Tell us your vision and we&apos;ll match you with the perfect artist. Start your custom tattoo journey in under 2 minutes.
+              Tell us what you&apos;re thinking and we&apos;ll match you with the right artist. Takes less than 2 minutes.
             </p>
 
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

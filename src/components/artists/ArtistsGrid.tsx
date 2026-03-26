@@ -48,7 +48,7 @@ export function ArtistsGrid() {
           </h1>
           <div className="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-transparent via-ink-purple to-transparent" />
           <p className="mx-auto mt-6 max-w-2xl text-lg text-ink-muted">
-            Each artist at Ink Theory brings a unique specialization, ensuring your tattoo is crafted by someone who truly excels in your chosen style.
+            Every artist on our team has their own specialty. Whatever your style, you&apos;ll be working with someone who actually excels in it.
           </p>
         </div>
 

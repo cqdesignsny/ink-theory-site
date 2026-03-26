@@ -20,11 +20,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://inktheorytattoos.com"),
   title: {
-    default: "Ink Theory Tattoos | Premier Tattoo Studio — Hudson Valley, NY & Dallas, TX",
+    default: "Ink Theory Tattoos | Premier Tattoo Studio in Hudson Valley, NY & Dallas, TX",
     template: "%s | Ink Theory Tattoos",
   },
   description:
-    "Ink Theory Tattoos — led by Steven Martinez with 5M+ followers. Specializing in realism, black & grey, fine line, and custom tattoo artistry. Studio in Montgomery, NY (Hudson Valley). Dallas, TX by appointment only. Book your consultation today.",
+    "Ink Theory Tattoos, led by Steven Martinez with 6M+ followers. Specializing in realism, black & grey, fine line, and custom tattoo artistry. Studio in Montgomery, NY (Hudson Valley). Dallas, TX by appointment only. Book your consultation today.",
   keywords: [
     "tattoo artist near me",
     "best tattoo shop Hudson Valley",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     siteName: "Ink Theory Tattoos",
     title: "Ink Theory Tattoos | Premier Tattoo Studio",
     description:
-      "Led by Steven Martinez with 5M+ followers. Custom realism, black & grey, and fine line tattoos. Studio in Hudson Valley, NY. Dallas, TX by appointment only.",
+      "Led by Steven Martinez with 6M+ followers. Custom realism, black & grey, and fine line tattoos. Studio in Hudson Valley, NY. Dallas, TX by appointment only.",
     images: [
       {
         url: "https://inktheorytattoos.com/wp-content/uploads/2025/01/logo-seal-wht.png",
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ink Theory Tattoos | Premier Tattoo Studio",
     description:
-      "Led by Steven Martinez with 5M+ followers. Custom realism, black & grey, and fine line tattoos.",
+      "Led by Steven Martinez with 6M+ followers. Custom realism, black & grey, and fine line tattoos.",
   },
   robots: {
     index: true,
@@ -202,7 +202,7 @@ const personSchema = {
     url: "https://inktheorytattoos.com",
   },
   description:
-    "Steven Martinez is the owner and lead artist at Ink Theory Tattoos with over 5 million social media followers. Known for breathtaking realism, high-contrast black & grey, and custom tattoo artistry.",
+    "Steven Martinez is the owner and lead artist at Ink Theory Tattoos with over 6 million social media followers. Known for his realism, high contrast black & grey, and custom tattoo artistry.",
   knowsAbout: [
     "Tattoo Art",
     "Realism Tattoos",

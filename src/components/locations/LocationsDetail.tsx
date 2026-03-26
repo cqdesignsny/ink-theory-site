@@ -45,7 +45,7 @@ export function LocationsDetail() {
           </h1>
           <div className="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-transparent via-ink-purple to-transparent" />
           <p className="mx-auto mt-6 max-w-2xl text-lg text-ink-muted">
-            World-class tattoo artistry in a premium, clean, and comfortable studio environment.
+            Premium tattoo studios with a clean, comfortable environment built for the best work.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export function LocationsDetail() {
                   </div>
                   <div className="flex items-center gap-3 text-ink-silver">
                     <Clock size={18} className="shrink-0 text-ink-silver" />
-                    <span>Mon–Sat: 10 AM – 8 PM</span>
+                    <span>Mon thru Sat: 10 AM to 8 PM</span>
                   </div>
                 </div>
 
@@ -143,7 +143,7 @@ export function LocationsDetail() {
                   </span>
                 </div>
                 <p className="mt-4 max-w-xl text-base text-ink-silver">
-                  Steven Martinez tattoos in the Dallas-Fort Worth area exclusively by appointment. The location is private and shared only after booking is confirmed. Appointments must be scheduled well in advance — reach out directly to inquire about availability.
+                  Steven tattoos in the Dallas Fort Worth area by appointment only. The location is private and shared once your booking is confirmed. Spots fill up fast so make sure you reach out early to lock something in.
                 </p>
               </div>
             </div>

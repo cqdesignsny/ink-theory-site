@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Ink Theory Tattoos',
     description:
-      'Reach out to book your tattoo consultation. Montgomery, NY studio — (845) 385-2136.',
+      'Reach out to book your tattoo consultation. Montgomery, NY studio, (845) 385-2136.',
   },
 };
 

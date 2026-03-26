@@ -115,7 +115,7 @@ export function AboutSteven() {
 
             <div className="mt-8 flex items-center gap-8">
               <div>
-                <div className="font-display text-3xl font-bold text-ink-white">5M+</div>
+                <div className="font-display text-3xl font-bold text-ink-white">6M+</div>
                 <div className="mt-1 text-xs uppercase tracking-wider text-ink-muted">
                   Followers
                 </div>
